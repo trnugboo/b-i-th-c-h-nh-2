@@ -1,0 +1,5 @@
+cau = input("Nhập một câu: ")
+danh_sach_tu = cau.split()
+cau_da_noi = "-".join(danh_sach_tu)
+print(danh_sach_tu)
+print(cau_da_noi)
